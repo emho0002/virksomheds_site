@@ -4,18 +4,44 @@
   box-sizing: border-box;
 }
 
+/* ---------------- VARIABLER -------------------------------- */
+
+html {
+  --primary-cl: #fffcf2;
+  --secondary-cl: #861919;
+
+  --font-xl: 1.8rem;
+  --font-lg: 1rem;
+  --font-menu: 0.8rem;
+
+  --primary-font: "Alegreya", serif;
+  --secondary-font: "Staatliches", sans-serif;
+}
+
+/* ---------------- TEKST-------------------------------- */
+h1 {
+  font-family: var(--primary-font);
+  color: var(--secondary-cl);
+  font-size: var(--font-xl);
+  font-weight: lighter;
+  letter-spacing: 5px;
+  margin: 50px auto;
+
+  text-align: center;
+}
+
+/* ---------------- HEADER/MENU -------------------------------- */
+
 main {
   max-width: 1300px;
   margin: 0px auto;
 }
 
-/* ---------------- HEADER/MENU -------------------------------- */
-
 header {
   font-family: "Inter", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
-  background-color: #fcfaf0;
+  background-color: var(--primary-cl);
   border-bottom: 2px solid #472828;
 }
 
@@ -70,11 +96,11 @@ header nav ul {
 a,
 .kontakt {
   text-decoration: none;
-  font-family: "Inter", sans-serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 500;
-  color: #472828;
-  font-size: 13px;
+  color: var(--secondary-cl);
+  font-size: var(--font-menu);
   letter-spacing: 4px;
   line-height: normal;
 }
@@ -114,7 +140,7 @@ nav {
 }
 
 .menu a:hover {
-  color: #f00;
+  color: #472828;
 }
 
 .burger {
