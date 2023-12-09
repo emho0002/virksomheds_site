@@ -41,7 +41,6 @@ footer {
   align-items: center;
   font-family: "Inter", sans-serif;
   border-top: solid #852a2a 2px;
-  border-bottom: solid #852a2a 2px;
   padding: 0 10px;
 }
 
@@ -64,18 +63,23 @@ footer {
 @media (min-width: 789px) {
   .grid1_2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 20px auto;
-    gap: 25px;
+    gap: 20px;
+    align-items: center;
   }
 
   .kasse {
     position: relative;
     border: solid #852a2a 2px;
-    padding: 25px;
-    width: 48%;
+    padding: 10px;
+    width: 30%;
     aspect-ratio: 1/1;
     overflow: hidden;
+    margin: 0 0 101px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .kasse h2 {
@@ -89,29 +93,59 @@ footer {
 
   .kasse p {
     font-family: serif;
-    margin: 10px auto;
-    max-width: 45ch;
-    font-size: 2cqw;
+    max-width: 22vw;
+    font-size: 1cqw;
     color: #852a2a;
+    margin-bottom: 10px;
   }
 
   .kasse img {
     display: block;
-    /* width: 100%;
-    height: 100%; */
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-  }
-
-  #img1 {
-    height: 49%;
-    width: auto;
-  }
-
-  #img2 {
-    height: 43%;
-    width: auto;
+    padding: 10px;
   }
 }
 
 @media (max-width: 800px) {
+  .grid1_2 {
+    display: block;
+    margin: 20px 100px;
+  }
+
+  .kasse {
+    border: solid #852a2a 2px;
+    padding: 10px;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .kasse h2 {
+    font-family: "staatlichesregular";
+    letter-spacing: 5px;
+    margin: 15px;
+    font-size: 4cqw;
+    color: #852a2a;
+  }
+
+  .kasse p {
+    font-family: serif;
+    max-width: 45vw;
+    color: #852a2a;
+    margin-bottom: 10px;
+  }
+
+  .kasse img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 10px;
+  }
 }

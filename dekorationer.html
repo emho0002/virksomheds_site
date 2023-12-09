@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="da">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,9 +18,94 @@
     <!-- Styles -->
     <link rel="stylesheet" href="styles/mutual_style.css">
     <link rel="stylesheet" href="styles/netbutik.css">
+    <link rel="stylesheet" href="styles/dekorationer.css">
 
     <!-- Script -->
     <link rel="script" href="menu.js">
 
-    <title>Netbutik</title>
+    <title>Dekorationer</title>
 </head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">CP</a>
+        </div>
+
+        <div class="sitenavn">
+            <a href="index.html">SKATKAMMERET</a>
+        </div>
+
+        <nav>
+            <ul class="menu menu_3_sider">
+                <li><a href="netbutik.html">NETBUTIK</a></li>
+                <li><a href="nyheder.html">NYHEDER</a></li>
+                <li><a href="om_skatkammeret.html">SKATKAMMERET</a></li>
+            </ul>
+
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h2>DEKORATIONER</h2>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We specialize in collecting and selling a wide range of antique items from different eras and cultures.
+            </p>
+        </section>
+
+        <section id="products">
+            <h2>Products</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="antique-item1.jpg" alt="Antique Item 1">
+                    <h3>Antique Item 1</h3>
+                    <p>Description of Antique Item 1</p>
+                    <p>Price: $100</p>
+                </div>
+                <div class="product">
+                    <img src="antique-item2.jpg" alt="Antique Item 2">
+                    <h3>Antique Item 2</h3>
+                    <p>Description of Antique Item 2</p>
+                    <p>Price: $150</p>
+                </div>
+                <!-- Add more product items -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Reach out to us for inquiries or more information.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p class="kontakt">KONTAKT</p>
+
+        <div class="sitenavn2">
+            <a href="index.html">SKATKAMMERET</a>
+        </div>
+
+        <img class="sociale_medier" src="img/medier.webp" alt="socialemedier">
+    </footer>
+
+    <script src="menu.js"></script>
+
+</body>
+
+</html>
