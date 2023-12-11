@@ -42,7 +42,7 @@ header {
   text-transform: uppercase;
   font-weight: 400;
   background-color: var(--primary-cl);
-  border-bottom: 2px solid #472828;
+  border-top: 1.2px solid #861919;
 }
 
 header {
@@ -218,8 +218,8 @@ footer {
   padding: 0 10px;
   overflow-x: auto;
   position: relative;
-  background-color: #f5f5f5;
-  border-top: solid #852a2a 2px;
+  background-color: var(--primary-cl);
+  border-top: 1.2px solid #861919;
   font-family: "Inter", sans-serif;
 }
 
