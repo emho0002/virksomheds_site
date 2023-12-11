@@ -47,7 +47,7 @@ header {
 
 header {
   max-width: 1175px;
-  margin: 0px auto;
+  margin: -1px auto 0;
   top: 0;
   padding: 10px;
   display: flex;
