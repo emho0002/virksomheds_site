@@ -47,7 +47,14 @@ main {
   width: 100%;
   height: auto;
   background-size: cover;
-  opacity: 0.5;
+}
+
+/******* video ************/
+.forsidevideo {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
 }
 
 /******* Kontakt box ************/
