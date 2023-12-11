@@ -26,14 +26,18 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0px;
-    padding-bottom: 40px;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .grid2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0px;
-    padding-bottom: 40px;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .grid_1_tekst {
@@ -60,11 +64,18 @@ img {
 }
 
 p {
-  padding: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 h2 {
   padding-left: 5%;
+}
+
+.readmore {
+  text-align: right;
+  padding-right: 5%;
 }
 
 .kontakt {
