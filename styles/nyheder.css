@@ -5,6 +5,16 @@
   background-color: var(--primary-cl);
 }
 
+p {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 2.5px;
+  word-spacing: 2px;
+  line-height: 35px;
+  color: #861919;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -15,27 +25,57 @@ img {
   .grid1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    padding-bottom: 40px;
-    background-color: #219219;
-    border: solid #852a2a 1px;
+    gap: 0px;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .grid2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    background-color: #219219;
+    gap: 0px;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .grid_1_tekst {
+    border: solid #852a2a 1px;
+  }
+
+  .grid_2_tekst {
     border: solid #852a2a 1px;
   }
 
   .grid_1_billede {
-    width: 30%;
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    overflow: hidden;
   }
 
   .grid_2_billede {
-    width: 30%;
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    overflow: hidden;
   }
+}
+
+p {
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+h2 {
+  padding-left: 5%;
+}
+
+.readmore {
+  text-align: right;
+  padding-right: 5%;
 }
 
 .kontakt {
