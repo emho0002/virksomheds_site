@@ -10,8 +10,27 @@ img {
   display: block;
 }
 
+.toplogo {
+  display: flex;
+
+  width: 600px;
+  margin: 0 auto;
+}
+.skatkammer,
+cp {
+}
+
 body {
   background-color: var(--primary-cl);
+}
+
+main {
+  background-image: url("../img/background_test1.webp");
+
+  z-index: 1;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto%;
 }
 
 /******* Kontakt box ************/
