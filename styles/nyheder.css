@@ -15,27 +15,45 @@ img {
   .grid1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 0px;
     padding-bottom: 40px;
-    background-color: #219219;
-    border: solid #852a2a 1px;
   }
 
   .grid2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    background-color: #219219;
+    gap: 0px;
+  }
+
+  .grid_1_tekst {
+    border: solid #852a2a 1px;
+  }
+
+  .grid_2_tekst {
     border: solid #852a2a 1px;
   }
 
   .grid_1_billede {
-    width: 30%;
+    max-width: 100%;
+    height: auto;
+    max-height: 250px;
+    overflow: hidden;
   }
 
   .grid_2_billede {
-    width: 30%;
+    max-width: 100%;
+    height: auto;
+    max-height: 250px;
+    overflow: hidden;
   }
+}
+
+p {
+  padding: 5%;
+}
+
+h2 {
+  padding-left: 5%;
 }
 
 .kontakt {
