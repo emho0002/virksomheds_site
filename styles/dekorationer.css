@@ -13,20 +13,33 @@ img {
 /*
 ************* DEKORATIONER **************
 */
+h2 {
+  font-family: var(--secondary-font);
+  letter-spacing: 5px;
+  margin: 50px auto;
+  font-size: var(--font-xl);
+  text-align: center;
+  color: var(--secondary-cl);
+}
 
-.product-list {
+.item-list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.product {
+.item {
+  text-align: center;
   width: 300px;
   margin: 10px;
   padding: 10px;
-  border: 1px solid #ccc;
 }
 
-.product img {
+.item h3,
+p {
+  gap: 10px;
+}
+
+.item img {
   width: 100%;
   height: auto;
 }
