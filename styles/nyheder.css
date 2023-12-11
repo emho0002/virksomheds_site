@@ -10,6 +10,23 @@ img {
   display: block;
 }
 
+@media (min-width: 800px) {
+  .grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding-bottom: 40px;
+    background-color: #e3ddd5;
+  }
+
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    background-color: #e3ddd5;
+  }
+}
+
 .kontakt {
   font-size: 0.8rem;
   color: #852a2a;
