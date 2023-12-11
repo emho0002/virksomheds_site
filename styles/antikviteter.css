@@ -21,12 +21,21 @@ h2 {
   font-family: var(--secondary-font);
   letter-spacing: 5px;
   margin: 50px auto;
+  padding: 10px;
   font-size: var(--font-xl);
   text-align: center;
   color: var(--secondary-cl);
 }
 
+.back a:link {
+  padding: 0 0 15px 30px;
+  font-size: 30px;
+}
+
 .item_list {
+  width: 100%;
+  height: 100%;
+
   padding: 0 120px;
 }
 
@@ -52,6 +61,7 @@ p {
   font-family: var(--primary-font);
   font-size: var(--font-lg);
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 h3 {
@@ -62,8 +72,10 @@ p {
   font-weight: bold;
 }
 
-.item_list a {
+.item_link {
   text-decoration: none;
+  color: inherit;
+  letter-spacing: 1px;
 }
 
 @media (max-width: 800px) {
@@ -75,5 +87,19 @@ p {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 50px;
+  }
+
+  .back a:link {
+    position: relative;
+    margin: 0 30px 0 0;
+    font-size: 30px;
+  }
+
+  .back {
+    text-align: right;
+  }
+
+  h2 {
+    margin: 0;
   }
 }

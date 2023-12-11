@@ -36,6 +36,29 @@ h1 {
 }
 
 @media (min-width: 789px) {
+  .toplogo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 1%;
+  }
+  .skatkammer,
+  .cp {
+    font-family: var(--primary-font);
+    color: var(--secondary-cl);
+    font-size: var(--font-xl);
+    font-weight: lighter;
+    letter-spacing: 5px;
+    margin-block: 2.6% 0;
+
+    text-align: center;
+  }
+  .hus_img {
+    background-color: var(--primary-cl);
+    width: 6%;
+  }
+
   .grid1_2 {
     display: flex;
     justify-content: center;
@@ -67,7 +90,7 @@ h1 {
   }
 
   .kasse p {
-    font-family: var(--primary-font);
+    font-family: "Montserrat Alternates", sans-serif;
     max-width: 22vw;
     font-size: 1cqw;
     color: var(--secondary-cl);
@@ -84,6 +107,32 @@ h1 {
 }
 
 @media (max-width: 800px) {
+  .toplogo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 1%;
+    display: none;
+  }
+  .skatkammer,
+  .cp {
+    font-family: var(--primary-font);
+    color: var(--secondary-cl);
+    font-size: var(--font-xl);
+    font-weight: lighter;
+    letter-spacing: 5px;
+    margin-block: 2.6% 0;
+
+    text-align: center;
+    display: none;
+  }
+  .hus_img {
+    background-color: var(--primary-cl);
+    width: 6%;
+    display: none;
+  }
+
   .grid1_2 {
     display: block;
     margin: 20px 100px;
@@ -110,7 +159,7 @@ h1 {
   }
 
   .kasse p {
-    font-family: var(--primary-font);
+    font-family: "Montserrat Alternates", sans-serif;
     max-width: 45vw;
     color: var(--secondary-cl);
     margin-bottom: 10px;

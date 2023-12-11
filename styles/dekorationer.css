@@ -21,13 +21,15 @@ h2 {
   font-family: var(--secondary-font);
   letter-spacing: 5px;
   margin: 50px auto;
+  padding: 10px;
   font-size: var(--font-xl);
   text-align: center;
   color: var(--secondary-cl);
 }
 
-.back {
+.back a:link {
   padding: 0 0 15px 30px;
+  font-size: 30px;
 }
 
 .item_list {
@@ -59,6 +61,7 @@ p {
   font-family: var(--primary-font);
   font-size: var(--font-lg);
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 h3 {
@@ -78,5 +81,19 @@ p {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 50px;
+  }
+
+  .back a:link {
+    position: relative;
+    margin: 0 30px 0 0;
+    font-size: 30px;
+  }
+
+  .back {
+    text-align: right;
+  }
+
+  h2 {
+    margin: 0;
   }
 }
