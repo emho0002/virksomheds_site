@@ -215,7 +215,26 @@ footer {
   list-style: none;
   align-items: center;
   margin: 0 auto;
-  padding: 10px;
+  padding: 0 10px;
   overflow-x: auto;
-  position: sticky;
+  position: relative;
+  background-color: #f5f5f5;
+  border-top: solid #852a2a 2px;
+  font-family: "Inter", sans-serif;
+}
+
+.kontakt {
+  font-size: 0.8rem;
+  color: #852a2a;
+}
+
+.sitenavn2 a {
+  text-decoration: none;
+  color: #852a2a;
+  font-size: 0.8rem;
+}
+
+.sociale_medier {
+  width: 90px;
+  height: 49px;
 }

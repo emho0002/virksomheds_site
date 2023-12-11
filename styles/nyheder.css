@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 40%;
+  height: 300px;
+  display: block;
+}
+
+.kontakt {
+  font-size: 0.8rem;
+  color: #852a2a;
+}
+
+.sitenavn2 a {
+  text-decoration: none;
+  color: #852a2a;
+  font-size: 0.8rem;
+}
+
+.sociale_medier {
+  width: 90px;
+  height: 49px;
+}
+
+/* fonts */
+/* font-family: 'Staatliches', sans-serif; */
+@font-face {
+  font-family: "staatlichesregular";
+  src: url("../fonts/Staatliches/staatliches-regular-webfont.woff2") format("woff2"), url("../fonts/Staatliches/staatliches-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
