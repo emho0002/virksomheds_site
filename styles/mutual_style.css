@@ -33,7 +33,7 @@ h1 {
 /* ---------------- HEADER/MENU -------------------------------- */
 
 main {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0px auto;
 }
 
@@ -47,7 +47,7 @@ header {
 
 header {
   max-width: 1175px;
-  margin: -1px auto 0;
+  margin: 0px auto;
   top: 0;
   padding: 10px;
   display: flex;
@@ -218,13 +218,8 @@ footer {
   padding: 0 10px;
   overflow-x: auto;
   position: relative;
-<<<<<<< HEAD
   background-color: var(--primary-cl);
   border-top: 1.2px solid #861919;
-=======
-
-  border-top: solid #852a2a 2px;
->>>>>>> 8c9ebe18b7a0b3aaae2d441a9fbf63ba251998b6
   font-family: "Inter", sans-serif;
 }
 
