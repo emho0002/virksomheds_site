@@ -11,5 +11,111 @@ img {
 }
 
 body {
-  background-color: red;
+  background-color: var(--primary-cl);
+}
+
+/******* Kontakt box ************/
+.kontakt_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.kontakt_info {
+  grid-column: 1;
+  padding: 10px; /* Add padding for spacing */
+}
+
+.kontakt_tekst {
+  grid-column: 2;
+  padding: 10px; /* Add padding for spacing */
+  border: 1px solid #425f42;
+  text-align: right;
+  padding: 20px;
+  font-size: 15px;
+  line-height: 15px;
+  height: 260px;
+  width: 300px;
+  direction: rtl;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/******* Rullende text ************/
+
+.rullende_forside_tekst {
+  color: var(--secondary-cl);
+  font-family: var(--secondary-font);
+
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  letter-spacing: 5.6px;
+}
+
+.rullende_text {
+  white-space: nowrap;
+  animation: scroll 60s linear infinite; /* Juster varighed og timing efter dine behov */
+  position: absolute; /* Tilføj absolut position til teksten */
+  left: -100%; /* Start fra højre side af containeren */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@media (min-width: 800px) {
+  .rullende_forside_tekst {
+    max-width: 1900px;
+    width: 100%;
+  }
+}
+
+/******* Forside billede galleri ************/
+
+.forsideknapper {
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  padding-bottom: 100px;
+  place-items: center;
+}
+
+.netbutik {
+  display: grid;
+  grid-column: 4 / span 4;
+  grid-row: 1 / span 4;
+  width: 247px;
+  height: 360px;
+  padding: 20px;
+}
+
+.nyheder {
+  display: grid;
+  grid-column: 13 / span 4;
+  grid-row: 3 / span 4;
+  width: 247px;
+  height: 360px;
+  padding: 20px;
+}
+
+.omskatkammeret {
+  display: grid;
+  grid-column: 24 / span 4;
+  grid-row: 2 / span 4;
+  width: 247px;
+  height: 360px;
+  padding: 20px;
+}
+.blabla {
+  display: grid;
+  grid-column: 5 / span 4;
+  grid-row: 6 / span 4;
+  width: 247px;
+  height: 360px;
+  padding: 20px;
 }
