@@ -5,6 +5,14 @@
   background-color: var(--primary-cl);
 }
 
+p {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 200;
+  letter-spacing: 2.5px;
+  line-height: 30px;
+  color: #861919;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -23,6 +31,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0px;
+    padding-bottom: 40px;
   }
 
   .grid_1_tekst {
@@ -36,14 +45,14 @@ img {
   .grid_1_billede {
     max-width: 100%;
     height: auto;
-    max-height: 250px;
+    max-height: 300px;
     overflow: hidden;
   }
 
   .grid_2_billede {
     max-width: 100%;
     height: auto;
-    max-height: 250px;
+    max-height: 300px;
     overflow: hidden;
   }
 }
