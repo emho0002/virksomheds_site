@@ -35,35 +35,6 @@ h1 {
   color: var(--secondary-cl);
 }
 
-footer {
-  display: flex;
-  position: relative;
-  margin: 0px auto;
-  bottom: 0;
-  background-color: var(--primary-cl);
-  justify-content: space-between;
-  align-items: center;
-  font-family: var(--secondary-font);
-  border-top: solid var(--secondary-cl) 2px;
-  padding: 0 10px;
-}
-
-.kontakt {
-  font-size: var(--font-menu);
-  color: var(--secondary-cl);
-}
-
-.sitenavn2 a {
-  text-decoration: none;
-  color: var(--secondary-cl);
-  font-size: var(--font-menu);
-}
-
-.sociale_medier {
-  width: 90px;
-  height: 49px;
-}
-
 @media (min-width: 789px) {
   .grid1_2 {
     display: flex;
