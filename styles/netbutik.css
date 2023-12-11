@@ -22,6 +22,10 @@ img {
 /* 
 ************** Globalt **************
 */
+body {
+  background-color: var(--primary-cl);
+}
+
 h1 {
   font-family: var(--primary-font);
   letter-spacing: 5px;
