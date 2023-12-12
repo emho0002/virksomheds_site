@@ -69,20 +69,18 @@ main {
   margin-left: 10%;
 }
 
-.kontakt_info {
+.kontakt_tekst {
   grid-column: 1;
-  padding: 10px; /* Add padding for spacing */
+  padding: 10px;
   opacity: 1;
-  background-color: #fbf8f1;
+  background-color: #fffcf2;
   border: 1px solid #e7e9d9;
-  box-shadow: 0 3px 10px rgba(94, 108, 91, 0.2);
   font-family: var(--primary-font);
 }
 
-.kontakt_tekst {
+.kontakt_info {
   grid-column: 2;
-  padding: 10px; /* Add padding for spacing */
-
+  padding: 10px;
   text-align: right;
   padding: 20px;
   font-size: 15px;
@@ -90,12 +88,11 @@ main {
   height: 260px;
   width: 300px;
   direction: rtl;
-  margin-top: 10px;
-  margin-bottom: 10px;
   opacity: 1;
-  background-color: #fbf8f1;
+  background-color: #fffcf2;
   border: 1px solid #e7e9d9;
-  box-shadow: 0 3px 10px rgba(94, 108, 91, 0.2);
+
+  padding: 0;
 }
 
 /******* Rullende text ************/
