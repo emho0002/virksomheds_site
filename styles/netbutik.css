@@ -105,6 +105,10 @@ p {
     margin-bottom: 10px;
   }
 
+  h2 {
+    padding: 10%;
+  }
+
   .kasse p {
     line-height: 20px;
     padding: 0 15px;
