@@ -71,27 +71,33 @@ h1 {
     position: relative;
     border: solid var(--secondary-cl) 1px;
     padding: 10px;
-    width: 30%;
+    width: 35%;
     aspect-ratio: 1/1;
     overflow: hidden;
-    margin: 0 0 101px 0;
+    margin: 0 0 50px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .kasse h2 {
+  /* .kasse h2 {
     font-family: var(--secondary-font);
     letter-spacing: 5px;
     margin: 15px;
     font-size: 2cqw;
     text-align: center;
     color: var(--secondary-cl);
+  } */
+
+  .kasse h2 {
+    margin-bottom: 10px;
   }
 
-  /* .kasse p {
+  .kasse p {
     line-height: 20px;
-  } */
+    padding: 0 15px;
+    margin-bottom: 10px;
+  }
   /* .kasse p {
     font-family: "Montserrat Alternates", sans-serif;
     max-width: 22vw;
@@ -154,12 +160,21 @@ h1 {
   }
 
   .kasse h2 {
+    margin-bottom: 10px;
+  }
+
+  .kasse p {
+    line-height: 20px;
+    padding: 0 15px;
+  }
+
+  /* .kasse h2 {
     font-family: var(--secondary-font);
     letter-spacing: 5px;
     margin: 15px;
     font-size: 4cqw;
     color: var(--secondary-cl);
-  }
+  } */
 
   /* .kasse p {
     font-family: "Montserrat Alternates", sans-serif;

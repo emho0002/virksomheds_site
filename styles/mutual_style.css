@@ -12,7 +12,7 @@ html {
 
   --font-xl: 1.8rem;
   --font-lg: 1.3rem;
-  --font-sm: 0.8rem;
+  --font-sm: 1rem;
   --font-menu: 0.8rem;
 
   --primary-font: "Alegreya", serif;
@@ -53,6 +53,9 @@ ul {
   margin-left: 5%;
   margin-top: 3%;
   list-style: none;
+  line-height: 1.6;
+  text-align: center;
+  font-weight: 300;
 }
 
 /* ---------------- HEADER/MENU -------------------------------- */
