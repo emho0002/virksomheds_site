@@ -91,13 +91,12 @@ h3 {
     text-align: right;
   }
 
-  .grid_1_2 {
+  /*   .grid_1_2 {
     /* display: grid;
     grid-template-rows: 1fr 1fr;
     margin: 0 1px;
     padding: 0 1px; */
-  }
-
+  /* } */
   .billede {
     width: 100%;
     height: auto;
