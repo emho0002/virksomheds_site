@@ -22,6 +22,26 @@ h2 {
   text-align: center;
 }
 
+p {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 2.5px;
+  word-spacing: 2px;
+  line-height: 35px;
+  color: #861919;
+}
+
+h3 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 2.5px;
+  word-spacing: 2px;
+  line-height: 35px;
+  color: #861919;
+}
+
 /* h2 {
   font-family: var(--secondary-font);
   letter-spacing: 5px;
@@ -61,7 +81,7 @@ h2 {
   margin-bottom: 10px;
 }
 
-h3 {
+/* h3 {
   font-family: var(--primary-font);
   font-size: var(--font-lg);
   text-transform: uppercase;
@@ -70,7 +90,7 @@ h3 {
 
 h3 {
   font-weight: 400;
-}
+} */
 
 p {
   font-weight: bold;
