@@ -42,7 +42,7 @@ body {
 }
 
 main {
-  background-image: url("../img/blomstret_tapet_x.png");
+  background-image: url("../img/blomstret_tapet_x.webp");
   z-index: -100;
   background-repeat: no-repeat;
   width: 100%;
@@ -76,6 +76,7 @@ main {
   background-color: #fffcf2;
   border: 1px solid #e7e9d9;
   font-family: var(--primary-font);
+  padding: 6%;
 }
 
 .kontakt_info {
@@ -146,6 +147,14 @@ main {
   opacity: 1;
 }
 
+.kontaktinfo_tekst {
+  font-family: var(--primary-font);
+  color: var(--secondary-cl);
+  font-size: var(--font-lg);
+  align-content: center;
+  text-align: center;
+  margin-top: 5%;
+}
 .netbutik {
   display: grid;
   grid-column: 4 / span 4;
@@ -183,4 +192,9 @@ main {
   height: 360px;
   padding: 20px;
   opacity: 1;
+}
+
+.pil {
+  width: 32%;
+  padding-top: 3%;
 }
