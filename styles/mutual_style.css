@@ -50,12 +50,12 @@ ul {
   font-family: var(--primary-font);
   color: var(--secondary-cl);
   font-size: var(--font-sm);
-  margin-left: 5%;
-  margin-top: 3%;
+
+  margin-top: 9%;
   list-style: none;
   line-height: 1.6;
   text-align: center;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 /* ---------------- HEADER/MENU -------------------------------- */
@@ -237,7 +237,7 @@ nav {
 /* ---------------- FOOTER -------------------------------- */
 
 footer {
-  max-width: 1175px;
+  max-width: 1300px;
   display: flex;
   justify-content: space-between;
   list-style: none;

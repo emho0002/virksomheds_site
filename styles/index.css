@@ -65,35 +65,56 @@ main {
   z-index: 100;
   opacity: 1;
   margin-top: 15%;
-  gap: 5%;
+  gap: 20%;
   margin-left: 10%;
 }
 
 .kontakt_tekst {
   grid-column: 1;
-  padding: 10px;
-  opacity: 1;
+
   background-color: #fffcf2;
   border: 1px solid #e7e9d9;
   font-family: var(--primary-font);
   padding: 6%;
+  width: 130%;
 }
 
 .kontakt_info {
   grid-column: 2;
-  padding: 10px;
-  text-align: right;
-  padding: 20px;
-  font-size: 15px;
-  line-height: 15px;
-  height: 260px;
-  width: 300px;
-  direction: rtl;
-  opacity: 1;
-  background-color: #fffcf2;
-  border: 1px solid #e7e9d9;
 
-  padding: 0;
+  width: 335px;
+
+  border: 1px solid #cccebf;
+}
+
+.kontak_tekst_headline {
+  font-family: var(--primary-font);
+  color: var(--secondary-cl);
+  font-size: var(--font-lg);
+  align-content: center;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.kontaktinfo_tekst {
+  font-family: var(--primary-font);
+  color: var(--secondary-cl);
+  font-size: var(--font-lg);
+  align-content: center;
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 2%;
+}
+
+.styled_li {
+  font-family: var(--primary-font);
+  color: var(--secondary-cl);
+  font-size: var(--font-sm);
+
+  list-style: none;
+  line-height: 1.6;
+  text-align: center;
+  font-weight: 300;
 }
 
 /******* Rullende text ************/
@@ -147,14 +168,6 @@ main {
   opacity: 1;
 }
 
-.kontaktinfo_tekst {
-  font-family: var(--primary-font);
-  color: var(--secondary-cl);
-  font-size: var(--font-lg);
-  align-content: center;
-  text-align: center;
-  margin-top: 5%;
-}
 .netbutik {
   display: grid;
   grid-column: 4 / span 4;
