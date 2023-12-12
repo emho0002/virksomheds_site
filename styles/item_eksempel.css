@@ -72,12 +72,6 @@ p {
   font-weight: bold;
 }
 
-.item_link {
-  text-decoration: none;
-  color: inherit;
-  letter-spacing: 1px;
-}
-
 @media (max-width: 800px) {
   .item_list {
     padding: 0 60px;
