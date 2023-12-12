@@ -5,7 +5,7 @@
   background-color: var(--primary-cl);
 }
 
-/* p {
+p {
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 0.8rem;
   font-weight: 300;
@@ -13,12 +13,29 @@
   word-spacing: 2px;
   line-height: 35px;
   color: #861919;
-} */
+}
 
 img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.billede_str {
+  width: 350px;
+  padding-bottom: 10%;
+}
+
+.insta {
+  display: grid;
+  max-width: 1200px;
+  padding-left: 3%;
+  margin: auto; /* Centrerer gitteret inden i dens container */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  /* gap: 0px; */
+  padding-top: 15px;
+  padding-bottom: 60px;
 }
 
 .toplogo {
@@ -96,6 +113,10 @@ h2 {
   padding-left: 5%;
 }
 
+.insta_tekst {
+  text-align: center;
+  padding-bottom: 3%;
+}
 .readmore {
   text-align: right;
   padding-right: 5%;
