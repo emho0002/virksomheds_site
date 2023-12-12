@@ -12,7 +12,7 @@ html {
 
   --font-xl: 1.8rem;
   --font-lg: 1.3rem;
-  --font-sm: 1rem;
+  --font-sm: 0.8rem;
   --font-menu: 0.8rem;
 
   --primary-font: "Alegreya", serif;
@@ -38,11 +38,12 @@ h2 {
 }
 
 p {
-  font-family: var(--primary-font);
   color: var(--secondary-cl);
   font-size: var(--font-sm);
-  letter-spacing: 1.8px;
-  margin-top: 5%;
+  font-weight: 300;
+  letter-spacing: 2.5px;
+  word-spacing: 2px;
+  line-height: 35px;
 }
 
 ul {
@@ -261,14 +262,4 @@ footer {
 .sociale_medier {
   width: 90px;
   height: 49px;
-}
-
-P {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-size: 0.8rem;
-  font-weight: 300;
-  letter-spacing: 2.5px;
-  word-spacing: 2px;
-  line-height: 35px;
-  color: #861919;
 }

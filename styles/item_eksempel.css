@@ -41,12 +41,12 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 65px;
+  gap: 30px;
 }
 
 .billede {
   width: 100%;
   height: auto;
-  max-width: 370px;
   margin-bottom: 30px;
 }
 
@@ -56,8 +56,7 @@ h2 {
   border: solid var(--secondary-cl) 1px;
 }
 
-h3,
-p {
+h3 {
   font-family: var(--primary-font);
   font-size: var(--font-lg);
   text-transform: uppercase;
@@ -68,28 +67,14 @@ h3 {
   font-weight: 400;
 }
 
-p {
-  font-weight: bold;
-}
-
 @media (max-width: 800px) {
-  .item_list {
-    padding: 0 60px;
-  }
-
-  .items {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 50px;
-  }
-
-  .back a:link {
+  .tilbage a:link {
     position: relative;
     margin: 0 30px 0 0;
     font-size: 30px;
   }
 
-  .back {
+  .tilbage {
     text-align: right;
   }
 
@@ -98,15 +83,15 @@ p {
   }
 
   .grid_1_2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* display: grid;
+    grid-template-rows: 1fr 1fr;
     margin: 0 1px;
+    padding: 0 1px; */
   }
 
   .billede {
     width: 100%;
     height: auto;
-    min-width: 214.8px;
     margin-bottom: 30px;
   }
 }
