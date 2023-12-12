@@ -22,6 +22,10 @@ img {
 /* 
 ************** Globalt **************
 */
+body {
+  background-color: var(--primary-cl);
+}
+
 h1 {
   font-family: var(--primary-font);
   letter-spacing: 5px;
@@ -31,36 +35,30 @@ h1 {
   color: var(--secondary-cl);
 }
 
-footer {
-  display: flex;
-  position: relative;
-  margin: 0px auto;
-  bottom: 0;
-  background-color: var(--primary-cl);
-  justify-content: space-between;
-  align-items: center;
-  font-family: var(--secondary-font);
-  border-top: solid var(--secondary-cl) 2px;
-  padding: 0 10px;
-}
-
-.kontakt {
-  font-size: var(--font-menu);
-  color: var(--secondary-cl);
-}
-
-.sitenavn2 a {
-  text-decoration: none;
-  color: var(--secondary-cl);
-  font-size: var(--font-menu);
-}
-
-.sociale_medier {
-  width: 90px;
-  height: 49px;
-}
-
 @media (min-width: 789px) {
+  .toplogo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 1%;
+  }
+  .skatkammer,
+  .cp {
+    font-family: var(--primary-font);
+    color: var(--secondary-cl);
+    font-size: var(--font-xl);
+    font-weight: lighter;
+    letter-spacing: 5px;
+    margin-block: 2.6% 0;
+
+    text-align: center;
+  }
+  .hus_img {
+    background-color: var(--primary-cl);
+    width: 6%;
+  }
+
   .grid1_2 {
     display: flex;
     justify-content: center;
@@ -92,7 +90,7 @@ footer {
   }
 
   .kasse p {
-    font-family: var(--primary-font);
+    font-family: "Montserrat Alternates", sans-serif;
     max-width: 22vw;
     font-size: 1cqw;
     color: var(--secondary-cl);
@@ -109,6 +107,32 @@ footer {
 }
 
 @media (max-width: 800px) {
+  .toplogo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 1%;
+    display: none;
+  }
+  .skatkammer,
+  .cp {
+    font-family: var(--primary-font);
+    color: var(--secondary-cl);
+    font-size: var(--font-xl);
+    font-weight: lighter;
+    letter-spacing: 5px;
+    margin-block: 2.6% 0;
+
+    text-align: center;
+    display: none;
+  }
+  .hus_img {
+    background-color: var(--primary-cl);
+    width: 6%;
+    display: none;
+  }
+
   .grid1_2 {
     display: block;
     margin: 20px 100px;
@@ -135,7 +159,7 @@ footer {
   }
 
   .kasse p {
-    font-family: var(--primary-font);
+    font-family: "Montserrat Alternates", sans-serif;
     max-width: 45vw;
     color: var(--secondary-cl);
     margin-bottom: 10px;
