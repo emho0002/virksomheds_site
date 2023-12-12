@@ -51,6 +51,7 @@ ul {
   font-size: var(--font-sm);
   margin-left: 5%;
   margin-top: 3%;
+  list-style: none;
 }
 
 /* ---------------- HEADER/MENU -------------------------------- */
