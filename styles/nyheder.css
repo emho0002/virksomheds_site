@@ -5,7 +5,7 @@
   background-color: var(--primary-cl);
 }
 
-/* p {
+p {
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 0.8rem;
   font-weight: 300;
@@ -13,7 +13,7 @@
   word-spacing: 2px;
   line-height: 35px;
   color: #861919;
-} */
+}
 
 img {
   width: 100%;
