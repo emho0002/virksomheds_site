@@ -89,13 +89,16 @@ h1 {
     color: var(--secondary-cl);
   }
 
-  .kasse p {
+  /* .kasse p {
+    line-height: 20px;
+  } */
+  /* .kasse p {
     font-family: "Montserrat Alternates", sans-serif;
     max-width: 22vw;
     font-size: 1cqw;
     color: var(--secondary-cl);
     margin-bottom: 10px;
-  }
+  } */
 
   .kasse img {
     display: block;
@@ -158,12 +161,12 @@ h1 {
     color: var(--secondary-cl);
   }
 
-  .kasse p {
+  /* .kasse p {
     font-family: "Montserrat Alternates", sans-serif;
     max-width: 45vw;
     color: var(--secondary-cl);
     margin-bottom: 10px;
-  }
+  } */
 
   .kasse img {
     display: block;
