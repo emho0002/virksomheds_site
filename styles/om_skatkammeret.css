@@ -49,6 +49,13 @@ body {
   border-color: #861919;
 }
 
+.billede_om_skatkammeret {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  overflow: hidden;
+}
+
 /******* TOP LOGO ************/
 .toplogo {
   display: flex;
