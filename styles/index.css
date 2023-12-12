@@ -211,3 +211,35 @@ main {
   width: 32%;
   padding-top: 3%;
 }
+
+/******* newspaper ************/
+
+/* Define a container for the grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.25fr 1fr 1fr 0.25fr; /* Two equal columns */
+  background-color: #f0ecdc;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+/* Style for the newspaper sign-up box */
+.signup-box {
+  background-color: #f0ecdc;
+  grid-column: 2;
+}
+
+/* Style for the Instagram feed box */
+.instagram-feed {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr); /* Three columns for the feed */
+  gap: 10px; /* Gap between the images */
+  width: 70%;
+}
+
+/* Style for the Instagram images */
+.instagram-img {
+  width: 100%;
+  height: auto;
+}
