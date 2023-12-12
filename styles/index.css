@@ -31,7 +31,7 @@ img {
 }
 .hus_img {
   background-color: var(--primary-cl);
-  width: 6%;
+  width: 10%;
 }
 
 /******* Baggrunde ************/
@@ -41,7 +41,7 @@ body {
 }
 
 main {
-  background-image: url("../img/background_test1.webp");
+  background-image: url("../img/blomstret_tapet_x.png");
   z-index: -100;
   background-repeat: no-repeat;
   width: 100%;
