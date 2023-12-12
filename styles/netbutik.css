@@ -46,10 +46,11 @@ p {
 }
 
 @media (min-width: 789px) {
+  /******* TOP LOGO ************/
   .toplogo {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 73%;
     margin: 0 auto;
     padding-top: 1%;
   }
@@ -60,13 +61,14 @@ p {
     font-size: var(--font-xl);
     font-weight: lighter;
     letter-spacing: 5px;
-    margin-block: 2.6% 0;
+    margin-block: 5.6% 0;
 
     text-align: center;
   }
   .hus_img {
     background-color: var(--primary-cl);
-    width: 6%;
+    width: 13%;
+    padding-bottom: 1%;
   }
 
   .grid1_2 {
