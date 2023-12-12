@@ -11,7 +11,8 @@ html {
   --secondary-cl: #861919;
 
   --font-xl: 1.8rem;
-  --font-lg: 1rem;
+  --font-lg: 1.3rem;
+  --font-sm: 1rem;
   --font-menu: 0.8rem;
 
   --primary-font: "Alegreya", serif;
@@ -28,6 +29,28 @@ h1 {
   margin: 50px auto;
 
   text-align: center;
+}
+
+h2 {
+  font-family: var(--primary-font);
+  color: var(--secondary-cl);
+  font-size: var(--font-lg);
+}
+
+p {
+  font-family: var(--primary-font);
+  color: var(--secondary-cl);
+  font-size: var(--font-sm);
+  letter-spacing: 1.8px;
+  margin-top: 5%;
+}
+
+ul {
+  font-family: var(--primary-font);
+  color: var(--secondary-cl);
+  font-size: var(--font-sm);
+  margin-left: 5%;
+  margin-top: 3%;
 }
 
 /* ---------------- HEADER/MENU -------------------------------- */
