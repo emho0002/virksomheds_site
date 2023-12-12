@@ -22,45 +22,43 @@ img {
 /* 
 ************** Globalt **************
 */
+body {
+  background-color: var(--primary-cl);
+}
+
 h1 {
-  font-family: serif;
+  font-family: var(--primary-font);
   letter-spacing: 5px;
   margin: 50px auto;
-  font-size: 4cqw;
+  font-size: var(--font-xl);
   text-align: center;
-  color: #852a2a;
-}
-
-footer {
-  position: relative;
-  margin: 0px auto;
-  bottom: 0;
-  background-color: #f5f5f5;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: "Inter", sans-serif;
-  border-top: solid #852a2a 2px;
-  padding: 0 10px;
-}
-
-.kontakt {
-  font-size: 0.8rem;
-  color: #852a2a;
-}
-
-.sitenavn2 a {
-  text-decoration: none;
-  color: #852a2a;
-  font-size: 0.8rem;
-}
-
-.sociale_medier {
-  width: 90px;
-  height: 49px;
+  color: var(--secondary-cl);
 }
 
 @media (min-width: 789px) {
+  .toplogo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 1%;
+  }
+  .skatkammer,
+  .cp {
+    font-family: var(--primary-font);
+    color: var(--secondary-cl);
+    font-size: var(--font-xl);
+    font-weight: lighter;
+    letter-spacing: 5px;
+    margin-block: 2.6% 0;
+
+    text-align: center;
+  }
+  .hus_img {
+    background-color: var(--primary-cl);
+    width: 6%;
+  }
+
   .grid1_2 {
     display: flex;
     justify-content: center;
@@ -71,7 +69,7 @@ footer {
 
   .kasse {
     position: relative;
-    border: solid #852a2a 2px;
+    border: solid var(--secondary-cl) 1px;
     padding: 10px;
     width: 30%;
     aspect-ratio: 1/1;
@@ -83,21 +81,24 @@ footer {
   }
 
   .kasse h2 {
-    font-family: "staatlichesregular";
+    font-family: var(--secondary-font);
     letter-spacing: 5px;
     margin: 15px;
     font-size: 2cqw;
     text-align: center;
-    color: #852a2a;
+    color: var(--secondary-cl);
   }
 
-  .kasse p {
-    font-family: serif;
+  /* .kasse p {
+    line-height: 20px;
+  } */
+  /* .kasse p {
+    font-family: "Montserrat Alternates", sans-serif;
     max-width: 22vw;
     font-size: 1cqw;
-    color: #852a2a;
+    color: var(--secondary-cl);
     margin-bottom: 10px;
-  }
+  } */
 
   .kasse img {
     display: block;
@@ -109,13 +110,39 @@ footer {
 }
 
 @media (max-width: 800px) {
+  .toplogo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 1%;
+    display: none;
+  }
+  .skatkammer,
+  .cp {
+    font-family: var(--primary-font);
+    color: var(--secondary-cl);
+    font-size: var(--font-xl);
+    font-weight: lighter;
+    letter-spacing: 5px;
+    margin-block: 2.6% 0;
+
+    text-align: center;
+    display: none;
+  }
+  .hus_img {
+    background-color: var(--primary-cl);
+    width: 6%;
+    display: none;
+  }
+
   .grid1_2 {
     display: block;
     margin: 20px 100px;
   }
 
   .kasse {
-    border: solid #852a2a 2px;
+    border: solid var(--secondary-cl) 1px;
     padding: 10px;
     width: 100%;
     height: 400px;
@@ -127,19 +154,19 @@ footer {
   }
 
   .kasse h2 {
-    font-family: "staatlichesregular";
+    font-family: var(--secondary-font);
     letter-spacing: 5px;
     margin: 15px;
     font-size: 4cqw;
-    color: #852a2a;
+    color: var(--secondary-cl);
   }
 
-  .kasse p {
-    font-family: serif;
+  /* .kasse p {
+    font-family: "Montserrat Alternates", sans-serif;
     max-width: 45vw;
-    color: #852a2a;
+    color: var(--secondary-cl);
     margin-bottom: 10px;
-  }
+  } */
 
   .kasse img {
     display: block;

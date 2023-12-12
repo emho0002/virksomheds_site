@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--primary-cl);
+}
+
+p {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 2.5px;
+  word-spacing: 2px;
+  line-height: 35px;
+  color: #861919;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.toplogo {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 1%;
+}
+.skatkammer,
+.cp {
+  font-family: var(--primary-font);
+  color: var(--secondary-cl);
+  font-size: var(--font-xl);
+  font-weight: lighter;
+  letter-spacing: 5px;
+  margin-block: 2.6% 0;
+
+  text-align: center;
+}
+.hus_img {
+  background-color: var(--primary-cl);
+  width: 10%;
+}
+
+@media (min-width: 800px) {
+  .grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .grid_1_tekst {
+    border: solid #852a2a 1px;
+  }
+
+  .grid_2_tekst {
+    border: solid #852a2a 1px;
+  }
+
+  .grid_1_billede {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    overflow: hidden;
+  }
+
+  .grid_2_billede {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    overflow: hidden;
+  }
+}
+
+p {
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+h2 {
+  padding-left: 5%;
+}
+
+.readmore {
+  text-align: right;
+  padding-right: 5%;
+}
+
+.kontakt {
+  font-size: 0.8rem;
+  color: #852a2a;
+}
+
+.sitenavn2 a {
+  text-decoration: none;
+  color: #852a2a;
+  font-size: 0.8rem;
+}
+
+.sociale_medier {
+  width: 90px;
+  height: 49px;
+}
+
+/* fonts */
+/* font-family: 'Staatliches', sans-serif; */
+@font-face {
+  font-family: "staatlichesregular";
+  src: url("../fonts/Staatliches/staatliches-regular-webfont.woff2") format("woff2"), url("../fonts/Staatliches/staatliches-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

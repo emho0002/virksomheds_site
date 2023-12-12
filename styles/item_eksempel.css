@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*
+************* DEKORATIONER **************
+*/
+body {
+  background-color: var(--primary-cl);
+}
+
+.push {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 25px;
+  padding: 0 0 0 40px;
+  gap: 10px;
+}
+
+h2 {
+  font-family: "Montserrat Alternates", sans-serif;
+  letter-spacing: 3px;
+  font-size: var(--font-xl);
+  color: var(--secondary-cl);
+}
+
+.tilbage a:link {
+  font-size: 20px;
+}
+
+.grid_1_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 65px;
+  gap: 30px;
+}
+
+.billede {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.info {
+  text-align: center;
+  margin-bottom: 30px;
+  border: solid var(--secondary-cl) 1px;
+}
+
+h3 {
+  font-family: var(--primary-font);
+  font-size: var(--font-lg);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+@media (max-width: 800px) {
+  .tilbage a:link {
+    position: relative;
+    margin: 0 30px 0 0;
+    font-size: 30px;
+  }
+
+  .tilbage {
+    text-align: right;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  .grid_1_2 {
+    /* display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 1px;
+    padding: 0 1px; */
+  }
+
+  .billede {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+}

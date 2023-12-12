@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*
+************* DEKORATIONER **************
+*/
+body {
+  background-color: var(--primary-cl);
+}
+
+h2 {
+  font-family: var(--secondary-font);
+  letter-spacing: 5px;
+  margin: 50px auto;
+  padding: 10px;
+  font-size: var(--font-xl);
+  text-align: center;
+  color: var(--secondary-cl);
+}
+
+.back a:link {
+  padding: 0 0 15px 30px;
+  font-size: 30px;
+}
+
+.item_list {
+  width: 100%;
+  height: 100%;
+
+  padding: 0 120px;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.item {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.items img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+h3,
+p {
+  font-family: var(--primary-font);
+  font-size: var(--font-lg);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+p {
+  font-weight: bold;
+}
+
+.item_link {
+  text-decoration: none;
+  color: inherit;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 800px) {
+  .item_list {
+    padding: 0 60px;
+  }
+
+  .items {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+
+  .back a:link {
+    position: relative;
+    margin: 0 30px 0 0;
+    font-size: 30px;
+  }
+
+  .back {
+    text-align: right;
+  }
+
+  h2 {
+    margin: 0;
+  }
+}

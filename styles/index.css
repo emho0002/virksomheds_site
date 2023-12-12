@@ -10,6 +10,176 @@ img {
   display: block;
 }
 
+/******* TOP LOGO ************/
+.toplogo {
+  display: flex;
+  justify-content: space-around;
+  width: 73%;
+  margin: 0 auto;
+  padding-top: 1%;
+}
+.skatkammer,
+.cp {
+  font-family: var(--primary-font);
+  color: var(--secondary-cl);
+  font-size: var(--font-xl);
+  font-weight: lighter;
+  letter-spacing: 5px;
+  margin-block: 5.6% 0;
+
+  text-align: center;
+}
+.hus_img {
+  background-color: var(--primary-cl);
+  width: 13%;
+  padding-bottom: 1%;
+}
+
+/******* Baggrunde ************/
+
 body {
-  background-color: red;
+  background-color: var(--primary-cl);
+}
+
+main {
+  background-image: url("../img/blomstret_tapet_x.png");
+  z-index: -100;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+/******* video ************/
+.forsidevideo {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+/******* Kontakt box ************/
+.kontakt_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  z-index: 100;
+  opacity: 1;
+  margin-top: 5%;
+  gap: 5%;
+  margin-left: 10%;
+}
+
+.kontakt_tekst {
+  grid-column: 1;
+  padding: 10px;
+  opacity: 1;
+  background-color: #fffcf2;
+  border: 1px solid #e7e9d9;
+  font-family: var(--primary-font);
+}
+
+.kontakt_info {
+  grid-column: 2;
+  padding: 10px;
+  text-align: right;
+  padding: 20px;
+  font-size: 15px;
+  line-height: 15px;
+  height: 260px;
+  width: 300px;
+  direction: rtl;
+  opacity: 1;
+  background-color: #fffcf2;
+  border: 1px solid #e7e9d9;
+
+  padding: 0;
+}
+
+/******* Rullende text ************/
+
+.rullende_forside_tekst {
+  color: var(--secondary-cl);
+  font-family: var(--secondary-font);
+
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  letter-spacing: 5.6px;
+  z-index: 100;
+  opacity: 1;
+}
+
+.rullende_text {
+  white-space: nowrap;
+  animation: scroll 60s linear infinite; /* Juster varighed og timing efter dine behov */
+  position: absolute; /* Tilføj absolut position til teksten */
+  left: -100%; /* Start fra højre side af containeren */
+  opacity: 1;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@media (min-width: 800px) {
+  .rullende_forside_tekst {
+    max-width: 1900px;
+    width: 100%;
+  }
+}
+
+/******* Forside billede galleri ************/
+
+.forsideknapper {
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  padding-bottom: 100px;
+  place-items: center;
+  z-index: 100;
+  opacity: 1;
+}
+
+.netbutik {
+  display: grid;
+  grid-column: 4 / span 4;
+  grid-row: 1 / span 4;
+  width: 247px;
+  height: 360px;
+  padding: 20px;
+  opacity: 1;
+}
+
+.nyheder {
+  display: grid;
+  grid-column: 13 / span 4;
+  grid-row: 3 / span 4;
+  width: 247px;
+  height: 360px;
+  padding: 20px;
+  opacity: 1;
+}
+
+.omskatkammeret {
+  display: grid;
+  grid-column: 24 / span 4;
+  grid-row: 2 / span 4;
+  width: 247px;
+  height: 360px;
+  padding: 20px;
+  opacity: 1;
+}
+.blabla {
+  display: grid;
+  grid-column: 5 / span 4;
+  grid-row: 6 / span 4;
+  width: 247px;
+  height: 360px;
+  padding: 20px;
+  opacity: 1;
 }

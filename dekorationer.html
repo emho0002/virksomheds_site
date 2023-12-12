@@ -15,6 +15,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 
+    <!-- Montserrat Alternates -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400&display=swap"
+        rel="stylesheet">
+
     <!-- Styles -->
     <link rel="stylesheet" href="styles/mutual_style.css">
     <link rel="stylesheet" href="styles/netbutik.css">
@@ -27,20 +33,35 @@
 </head>
 
 <body>
+    <div class="toplogo">
+        <div></div>
+        <div></div>
+        <div class="skatkammer">
+            SKATKAMMER
+
+        </div>
+        <div class="hus_img">
+            <img src="img/hus_img_x.png" alt="">
+        </div>
+
+        <div class="cp">
+            CAMILLA PLUM
+
+        </div>
+        <div></div>
+        <div></div>
+    </div>
+
     <header>
         <div class="logo">
             <a href="index.html">CP</a>
-        </div>
-
-        <div class="sitenavn">
-            <a href="index.html">SKATKAMMERET</a>
         </div>
 
         <nav>
             <ul class="menu menu_3_sider">
                 <li><a href="netbutik.html">NETBUTIK</a></li>
                 <li><a href="nyheder.html">NYHEDER</a></li>
-                <li><a href="om_skatkammeret.html">SKATKAMMERET</a></li>
+                <li><a href="om_skatkammeret.html">OM SKATKAMMERET</a></li>
             </ul>
 
             <div class="burger">
@@ -54,44 +75,67 @@
     <main>
         <h2>DEKORATIONER</h2>
 
-        <section id="about">
-            <h2>About Us</h2>
-            <p>We specialize in collecting and selling a wide range of antique items from different eras and cultures.
-            </p>
-        </section>
+        <div class="back">
+            <a href="netbutik.html">↩</a>
+        </div>
 
-        <section id="products">
-            <h2>Products</h2>
-            <div class="product-list">
-                <div class="product">
-                    <img src="antique-item1.jpg" alt="Antique Item 1">
-                    <h3>Antique Item 1</h3>
-                    <p>Description of Antique Item 1</p>
-                    <p>Price: $100</p>
+        <div class="item_list">
+            <div class="items">
+                <div class="item">
+                    <img src="img/dekorationer/pic1.jpg" alt="pic1">
+                    <h3>Juletræer</h3>
+                    <p>Julepynt</p>
                 </div>
-                <div class="product">
-                    <img src="antique-item2.jpg" alt="Antique Item 2">
-                    <h3>Antique Item 2</h3>
-                    <p>Description of Antique Item 2</p>
-                    <p>Price: $150</p>
+
+                <div class="item">
+                    <img src="img/dekorationer/pic2.png" alt="pic2">
+                    <h3>Bøgeblad</h3>
+                    <p>Julepynt</p>
                 </div>
-                <!-- Add more product items -->
+
+                <div class="item">
+                    <img src="img/dekorationer/pic3.png" alt="pic3">
+                    <h3>Svamp</h3>
+                    <p>Julepynt</p>
+                </div>
+
+                <div class="item">
+                    <img src="img/dekorationer/pic4.png" alt="pic4">
+                    <h3>Glasfugle</h3>
+                    <p>Fugle pynt</p>
+                </div>
+
+                <div class="item">
+                    <img src="img/dekorationer/pic5.png" alt="pic5">
+                    <h3>Fjerfugle</h3>
+                    <p>Fugle pynt</p>
+                </div>
+
+                <div class="item">
+                    <img src="img/dekorationer/pic6.png" alt="pic6">
+                    <h3>Påfugl</h3>
+                    <p>Fugle pynt</p>
+                </div>
+
+                <div class="item">
+                    <img src="img/dekorationer/pic7.png" alt="pic7">
+                    <h3>Guirlande</h3>
+                    <p>Andet pynt</p>
+                </div>
+
+                <div class="item">
+                    <img src="img/dekorationer/pic8.png" alt="pic8">
+                    <h3>Hørgarn</h3>
+                    <p>Andet pynt</p>
+                </div>
+
+                <div class="item">
+                    <img src="img/dekorationer/pic9.png" alt="pic9">
+                    <h3>Julespiraller</h3>
+                    <p>Andet pynt</p>
+                </div>
             </div>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Reach out to us for inquiries or more information.</p>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-                <button type="submit">Submit</button>
-            </form>
-        </section>
+        </div>
     </main>
 
     <footer>

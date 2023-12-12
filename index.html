@@ -17,9 +17,13 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="styles/mutual_style.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles/index.css">
 
-
+    <!-- Montserrat Alternates -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400&display=swap"
+        rel="stylesheet">
 
     <!-- Script -->
     <link rel="script" href="menu.js">
@@ -28,21 +32,41 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <a href="index.html">CP</a>
+    <div class="toplogo">
+        <div></div>
+        <div></div>
+        <div class="skatkammer">
+            SKATKAMMER
+
+        </div>
+        <div class="hus_img">
+            <img src="img/hus_img_x.png" alt="">
         </div>
 
-        <div class="sitenavn">
-            <a href="index.html">SKATKAMMERET</a>
+        <div class="cp">
+            CAMILLA PLUM
+
         </div>
+        <div></div>
+        <div></div>
+    </div>
+
+
+
+    <header>
+
+        <div class="logo">
+            <a href="index.html">Forside</a>
+        </div>
+
+
 
 
         <nav>
             <ul class="menu menu_3_sider">
                 <li><a href="netbutik.html">NETBUTIK</a></li>
                 <li><a href="nyheder.html">NYHEDER</a></li>
-                <li><a href="om_skatkammeret.html">SKATKAMMERET</a></li>
+                <li><a href="om_skatkammeret.html">OM SKATKAMMERET</a></li>
 
             </ul>
             <div class="burger">
@@ -56,10 +80,9 @@
 
 
     <main>
-        <h1>SKATKAMMER - CAMILLA PLUM</h1>
 
         <div class="forsidevideo">
-            <video width="1200" height="940" controls>
+            <video width="1200" height="800" controls>
                 <source src="video/camilla_vd_x.mp4" type="video/mp4">
 
             </video>
@@ -69,7 +92,9 @@
 
 
         <div class="kontakt_grid">
-            <div class="kontakt_info">
+            <div class="kontakt_tekst">
+
+                <h2>Tekst om skatkammer</h2>
                 <p>På vores webside udforsker vi begrebet afhængighed i dybden, vi går i detaljer om,
                     hvad det indebærer,
                     hvorfor det
@@ -80,17 +105,19 @@
                     dem.
                 </p>
 
+
             </div>
-            <div class="kontakt_tekst">
-                <p>På vores webside udforsker vi begrebet afhængighed i dybden, vi går i detaljer om,
-                    hvad det indebærer,
-                    hvorfor det
-                    udvikler sig, og vi gransker forskellen mellem vaner og afhængigheder. Desuden tilbyder vi en
-                    indsigt i,
-                    hvordan din
-                    hjerne påvirkes af disse forhold, alt sammen med det formål at assistere dig i at bryde fri fra
-                    dem.
-                </p>
+            <div class="kontakt_info">
+                <h2>Kontaktinformationer</h2>
+                <ul>
+                    <li>Åbningstider</li>
+
+                    <li>Adresse</li>
+
+                    <li> Mail</li>
+
+                    <li>Telefon</li>
+                </ul>
 
 
             </div>
@@ -98,26 +125,54 @@
 
         </div>
         <div class="rullende_forside_tekst">
-            <div class="rullende_text"> LÆS MERE HER! LÆS MERE HER! LÆS MERE HER! LÆS MERE HER! LÆS MERE HER! LÆS
-                MERE
+
+            <div class="rullende_text">
+                LÆS MERE HER! LÆS MERE HER! LÆS MERE HER! LÆS MERE HER! LÆS MERE HER! LÆS MERE
                 HER! LÆS MERE HER! LÆS
                 MERE HER! LÆS MERE HER! LÆS MERE HER! LÆS MERE HER! LÆS MERE
                 HER! LÆS MERE HER! LÆS
                 MERE HER! LÆS MERE HER! LÆS MERE HER! LÆS MERE HER!LÆS MERE
-                HER! </div>
-        </div>
-
-        <div class="floating_img_grid">
-            <div class="img_netbutik">
-            </div>
-            <div class="img_nyheder">
-            </div>
-            <div class="img_omskatkammert">
-            </div>
-            <div class="img_blabla">
+                HER!
             </div>
         </div>
 
+
+
+        <div class="forsideknapper">
+
+            <div class="netbutik"> <a href="netbutik.html">
+                    <img class="billede_site_1" src="img/img_netbutik.png" alt="SITENETBUTIK">
+
+                    <div class="site_1_1">
+                        <h4>NETBUTIK</h4>
+                        <img class="pil" src="webp/pil.webp" alt="pil">
+
+                    </div>
+                </a>
+            </div>
+
+            <div class="nyheder"> <a href="dopamin.html">
+                    <img class="billede_site_2" src="img/img_nyheder.png" alt="nyheder">
+                    <div class="site_2_1">
+                        <h4>NYHEDER</h4>
+                        <img class="pil" src="webp/pil.webp" alt="pil">
+                    </div>
+                </a>
+            </div>
+
+            <div class="omskatkammeret"> <a href="slipfri.html">
+                    <img class="billede_site_3" src="img/om_skatkammer_img.png" alt="SITEBLIVFRI">
+                    <div class="site_3_1">
+                        <h4>OM SKATKAMMERET</h4>
+                        <img class="pil" src="webp/pil.webp" alt="pil">
+                    </div>
+                </a>
+            </div>
+
+
+
+
+        </div>
 
 
 
@@ -133,8 +188,10 @@
         </div>
 
         <img class="sociale_medier" src="img/medier.webp" alt="socialemedier">
+
     </footer>
     <script src="menu.js"></script>
+    <script src="login.js"></script>
 </body>
 
 

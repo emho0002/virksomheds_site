@@ -11,7 +11,8 @@ html {
   --secondary-cl: #861919;
 
   --font-xl: 1.8rem;
-  --font-lg: 1rem;
+  --font-lg: 1.3rem;
+  --font-sm: 0.8rem;
   --font-menu: 0.8rem;
 
   --primary-font: "Alegreya", serif;
@@ -30,6 +31,30 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-family: var(--primary-font);
+  color: var(--secondary-cl);
+  font-size: var(--font-lg);
+}
+
+p {
+  color: var(--secondary-cl);
+  font-size: var(--font-sm);
+  font-weight: 300;
+  letter-spacing: 2.5px;
+  word-spacing: 2px;
+  line-height: 35px;
+}
+
+ul {
+  font-family: var(--primary-font);
+  color: var(--secondary-cl);
+  font-size: var(--font-sm);
+  margin-left: 5%;
+  margin-top: 3%;
+  list-style: none;
+}
+
 /* ---------------- HEADER/MENU -------------------------------- */
 
 main {
@@ -42,7 +67,7 @@ header {
   text-transform: uppercase;
   font-weight: 400;
   background-color: var(--primary-cl);
-  border-bottom: 2px solid #472828;
+  border-top: 1.2px solid #861919;
 }
 
 header {
@@ -215,7 +240,26 @@ footer {
   list-style: none;
   align-items: center;
   margin: 0 auto;
-  padding: 10px;
+  padding: 0 10px;
   overflow-x: auto;
-  position: sticky;
+  position: relative;
+  background-color: var(--primary-cl);
+  border-top: 1.2px solid #861919;
+  font-family: "Inter", sans-serif;
+}
+
+.kontakt {
+  font-size: 0.8rem;
+  color: #852a2a;
+}
+
+.sitenavn2 a {
+  text-decoration: none;
+  color: #852a2a;
+  font-size: 0.8rem;
+}
+
+.sociale_medier {
+  width: 90px;
+  height: 49px;
 }
