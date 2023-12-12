@@ -102,11 +102,7 @@ p {
   } */
 
   .kasse h2 {
-    margin-bottom: 10px;
-  }
-
-  h2 {
-    padding: 10%;
+    margin: 10px 0;
   }
 
   .kasse p {

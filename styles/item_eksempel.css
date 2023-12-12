@@ -26,6 +26,11 @@ body {
   gap: 10px;
 }
 
+h2 {
+  letter-spacing: 3px;
+  font-size: var(--font-xl);
+}
+
 /* h2 {
   font-family: "Montserrat Alternates", sans-serif;
   letter-spacing: 3px;
@@ -40,9 +45,6 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 30px 0 20px 0;
-}
-
-h3 {
   font-weight: 400;
 }
 
@@ -53,31 +55,61 @@ h3 {
 .grid_1_2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 0 65px;
-  gap: 30px;
+  margin: 0 5%;
+  gap: 3%;
 }
 
 .billede {
   width: 100%;
   height: auto;
-  margin-bottom: 30px;
+  margin-bottom: 5%;
 }
 
 .info {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 5%;
   border: solid var(--secondary-cl) 1px;
+  padding: 3%;
+  height: auto;
+}
+
+.pris p {
+  margin: 20px 30px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.txt1 p {
+  max-width: 25vw;
+  margin: 0 auto;
+  margin-bottom: 9%;
 }
 
 .info p {
-  text-align: left;
-  margin: 20px 30px;
   font-size: var(--font-lg);
 }
 
 .info a {
-  border: solid 1px;
   padding: 10px;
+  background-color: var(--secondary-cl);
+  color: var(--primary-cl);
+}
+
+.txt2,
+.txt3 {
+  margin-top: 9%;
+  text-align: left;
+  margin-inline: 30px;
+}
+
+.txt2 p {
+  margin-top: 50px;
+  padding: 1%;
+}
+
+.txt3 p {
+  border-top: 1px solid var(--secondary-cl);
+  padding: 3%;
 }
 
 @media (max-width: 800px) {
@@ -91,15 +123,60 @@ h3 {
     text-align: right;
   }
 
-  /*   .grid_1_2 {
-    /* display: grid;
-    grid-template-rows: 1fr 1fr;
-    margin: 0 1px;
-    padding: 0 1px; */
-  /* } */
+  .grid_1_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .billede {
     width: 100%;
     height: auto;
-    margin-bottom: 30px;
+    margin-bottom: 5%;
+  }
+
+  .info {
+    text-align: center;
+    border: solid var(--secondary-cl) 1px;
+    padding: 2%;
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+  }
+
+  h3 {
+    font-family: var(--primary-font);
+    font-size: larger;
+    color: var(--secondary-cl);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 20px 0 10px 0;
+    font-weight: 400;
+  }
+
+  .pris p {
+    margin: 10px 20px;
+    font-weight: bold;
+    text-align: left;
+    font-size: smaller;
+  }
+
+  .txt1 p {
+    max-width: 70vw;
+    margin: 0 auto;
+    margin-bottom: 4.5%;
+    font-size: medium;
+  }
+
+  .txt2 p {
+    margin-top: 40px;
+    padding: 0.5%;
+    font-size: medium;
+  }
+
+  .txt3 p {
+    border-top: 1px solid var(--secondary-cl);
+    padding: 1.5%;
+    font-size: medium;
   }
 }

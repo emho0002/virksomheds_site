@@ -62,7 +62,6 @@ h3 {
 .item_list {
   width: 100%;
   height: 100%;
-
   padding: 0 120px;
 }
 
@@ -78,14 +77,15 @@ h3 {
 }
 
 .items img {
-  width: 100%;
-  height: auto;
+  display: inline-block;
   margin-bottom: 10px;
+  max-height: 138.867px;
+  max-width: 183.567px;
 }
 
-h3 {
+/* h3 {
   font-weight: 400;
-}
+} */
 
 p {
   font-weight: bold;
@@ -93,19 +93,56 @@ p {
 }
 
 .item_link p {
-  font-family: var(--primary-font);
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: var(--font-sm);
   letter-spacing: 2.5px;
   word-spacing: 2px;
   line-height: 35px;
 }
 
 .item_link {
-  text-decoration: none;
   color: inherit;
   letter-spacing: 1px;
+}
+
+.grid_item_filter {
+  display: flex;
+}
+
+@media (min-width: 800px) {
+  /* 
+************** Filter **************
+*/
+  .filter {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px var(--secondary-cl);
+    max-width: fit-content;
+    text-align: left;
+    padding: 1%;
+    margin-bottom: 80%;
+  }
+
+  .filter a {
+    padding: 10px 1px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    transition: all 0.2s;
+    font-family: var(--primary-font);
+    font-weight: bold;
+  }
+
+  .filter a:hover {
+    color: #472828;
+  }
+
+  .items a.hide,
+  .items a.pophide {
+    opacity: 0;
+    transition: all 0.1s;
+  }
+  /*
+************** vha. Nodws (account) "CodePen, Gallery Item filter" samt. chatgpt. **************
+*/
 }
 
 @media (max-width: 800px) {
@@ -127,5 +164,10 @@ p {
 
   .back {
     text-align: right;
+  }
+
+  /* FILTER */
+  .filter {
+    display: none;
   }
 }
