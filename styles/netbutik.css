@@ -131,11 +131,12 @@ p {
   .toplogo {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 73%;
     margin: 0 auto;
     padding-top: 1%;
-    display: none;
+    /* display: none; */
   }
+
   .skatkammer,
   .cp {
     font-family: var(--primary-font);
@@ -143,28 +144,31 @@ p {
     font-size: var(--font-xl);
     font-weight: lighter;
     letter-spacing: 5px;
-    margin-block: 2.6% 0;
+    margin-block: 5.6% 0;
 
     text-align: center;
-    display: none;
+    /* display: none; */
   }
+
   .hus_img {
     background-color: var(--primary-cl);
-    width: 6%;
+    width: 13%;
+    padding-bottom: 1%;
     display: none;
   }
 
   .grid1_2 {
-    display: block;
-    margin: 20px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 30px;
   }
 
   .kasse {
     border: solid var(--secondary-cl) 1px;
     padding: 10px;
-    width: 100%;
+    width: auto;
     height: 400px;
-    overflow: hidden;
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
@@ -176,8 +180,8 @@ p {
   }
 
   .kasse p {
-    line-height: 20px;
-    padding: 0 15px;
+    line-height: 110%;
+    padding: 0 10px;
   }
 
   /* .kasse h2 {
