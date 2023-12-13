@@ -81,7 +81,7 @@ p {
 
   .kasse {
     position: relative;
-    border: solid var(--secondary-cl) 1px;
+    border: solid var(--secondary-cl) 0.1px;
     padding: 10px;
     width: 35%;
     aspect-ratio: 1/1;
