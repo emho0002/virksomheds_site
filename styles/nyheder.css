@@ -83,11 +83,11 @@ img {
   }
 
   .grid_1_tekst {
-    border: solid #852a2a 1px;
+    border: solid #852a2a 0.1px;
   }
 
   .grid_2_tekst {
-    border: solid #852a2a 1px;
+    border: solid #852a2a 0.1px;
   }
 
   .grid_1_billede {

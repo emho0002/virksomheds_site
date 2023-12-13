@@ -212,21 +212,67 @@ main {
   padding-top: 3%;
 }
 
-/******* newspaper ************/
+/******* Nyhedsbrev ************/
 
 /* Define a container for the grid */
 .grid-container {
   display: grid;
-  grid-template-columns: 0.25fr 1fr 1fr 0.25fr; /* Two equal columns */
+  grid-template-columns: 0.25fr 1fr 1fr 0.25fr;
   background-color: #f0ecdc;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
 }
 
 /* Style for the newspaper sign-up box */
 .signup-box {
   background-color: #f0ecdc;
   grid-column: 2;
+  width: 60%;
+  margin-left: 35%;
+}
+
+.nyhedsbrev_titel {
+  font-family: var(--secondary-font);
+  color: var(--secondary-cl);
+  font-size: var(--font-lg);
+}
+
+.nyhedsbrev_tekst {
+  font-family: var(--primary-font);
+  color: var(--secondary-cl);
+  font-size: var(--font-sm);
+  list-style: none;
+  line-height: 1.6;
+
+  font-weight: 300;
+  margin-bottom: 2%;
+}
+
+input[type="text"] {
+  margin-bottom: 10px; /* Adds some space between text input and the next label */
+  width: 90%;
+  font-family: var(--primary-font);
+  font-size: 1rem;
+}
+
+input[type="email"] {
+  margin-bottom: 10px; /* Adds some space between text input and the next label */
+  width: 90%;
+  font-family: var(--primary-font);
+  font-size: 1rem;
+}
+
+button[type="submit"] {
+  padding: 10px 15px;
+  background-color: #c89d93;
+  color: #fffcf2;
+  border: none;
+  cursor: pointer;
+  outline-color: black;
+  margin-top: 2%;
+  font-family: var(--primary-font);
+  font-size: 1rem;
 }
 
 /* Style for the Instagram feed box */
