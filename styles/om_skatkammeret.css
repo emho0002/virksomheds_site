@@ -57,6 +57,9 @@ body {
   max-height: 300px;
   overflow: hidden;
 }
+.kontakt {
+  padding-top: 0%;
+}
 
 /******* TOP LOGO ************/
 .toplogo {
