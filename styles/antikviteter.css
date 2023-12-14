@@ -65,22 +65,23 @@ h3 {
   padding: 0 120px;
 }
 
-.items {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 50px;
-}
-
 .item {
   text-align: center;
   margin-bottom: 40px;
 }
 
-.items img {
-  display: inline-block;
+.item img {
+  /* display: inline-block; */
   margin-bottom: 10px;
-  max-height: 138.867px;
-  max-width: 183.567px;
+
+  /* max-height: 138.867px;
+  max-width: 183.567px; */
+
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 160px;
+  max-height: 100%;
 }
 
 /* h3 {
@@ -140,9 +141,24 @@ p {
     opacity: 0;
     transition: all 0.1s;
   }
+
+  .item.hide {
+    display: none;
+  }
   /*
 ************** vha. Nodws (account) "CodePen, Gallery Item filter" samt. chatgpt. **************
 */
+
+  .items {
+    /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px; */
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 5%;
+  }
 }
 
 @media (max-width: 800px) {
@@ -151,9 +167,14 @@ p {
   }
 
   .items {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 50px;
+    grid-gap: 50px; */
+
+    display: flex;
+    flex-direction: column;
+    grid-gap: 5%;
+    align-items: center;
   }
 
   .back a:link {
