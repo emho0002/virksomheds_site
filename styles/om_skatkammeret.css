@@ -33,34 +33,34 @@ h2 {
 body {
   background-color: #fffcf2;
 }
+@media (min-width: 800px) {
+  .kasse-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 85px;
+    margin-bottom: 85px;
+    margin-right: 85px;
+  }
 
-.kasse-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-left: 85px;
-  margin-bottom: 85px;
-  margin-right: 85px;
-}
+  .kasse-2 h2 {
+    padding-top: 20px;
+  }
 
-.kasse-2 h2 {
-  padding-top: 20px;
-}
+  .kasse-2 {
+    border: 0.5px solid;
+    border-color: #861919;
+  }
 
-.kasse-2 {
-  border: 0.5px solid;
-  border-color: #861919;
+  .billede_om_skatkammeret {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    overflow: hidden;
+  }
+  .kontakt {
+    padding-top: 0%;
+  }
 }
-
-.billede_om_skatkammeret {
-  max-width: 100%;
-  height: auto;
-  max-height: 300px;
-  overflow: hidden;
-}
-.kontakt {
-  padding-top: 0%;
-}
-
 /******* TOP LOGO ************/
 .toplogo {
   display: flex;
@@ -84,4 +84,24 @@ body {
   background-color: var(--primary-cl);
   width: 13%;
   padding-bottom: 1%;
+}
+
+@media (max-width: 800px) {
+  .skatkammer {
+    font-size: 1rem;
+    margin-bottom: 5%;
+  }
+
+  .cp {
+    font-size: 1rem;
+    display: none;
+  }
+
+  .hus_img {
+    display: none;
+  }
+
+  p {
+    padding-bottom: 10%;
+  }
 }

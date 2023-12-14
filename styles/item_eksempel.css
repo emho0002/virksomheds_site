@@ -120,6 +120,19 @@ h3 {
 }
 
 @media (max-width: 800px) {
+  .skatkammer {
+    font-size: 1rem;
+    margin-bottom: 5%;
+  }
+
+  .cp {
+    font-size: 1rem;
+    display: none;
+  }
+
+  .hus_img {
+    display: none;
+  }
   .tilbage a:link {
     position: relative;
     margin: 0 30px 0 0;

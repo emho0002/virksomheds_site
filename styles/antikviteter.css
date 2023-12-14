@@ -162,6 +162,19 @@ p {
 }
 
 @media (max-width: 800px) {
+  .skatkammer {
+    font-size: 1rem;
+    margin-bottom: 5%;
+  }
+
+  .cp {
+    font-size: 1rem;
+    display: none;
+  }
+
+  .hus_img {
+    display: none;
+  }
   .item_list {
     padding: 0 60px;
   }

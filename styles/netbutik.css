@@ -128,6 +128,19 @@ p {
 }
 
 @media (max-width: 800px) {
+  .skatkammer {
+    font-size: 1rem;
+    margin-bottom: 5%;
+  }
+
+  .cp {
+    font-size: 1rem;
+    display: none;
+  }
+
+  .hus_img {
+    display: none;
+  }
   .toplogo {
     display: flex;
     justify-content: space-around;
@@ -141,7 +154,6 @@ p {
   .cp {
     font-family: var(--primary-font);
     color: var(--secondary-cl);
-    font-size: var(--font-xl);
     font-weight: lighter;
     letter-spacing: 5px;
     margin-block: 5.6% 0;
