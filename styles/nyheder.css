@@ -21,11 +21,6 @@ img {
   display: block;
 }
 
-.billede_str {
-  width: 350px;
-  padding-bottom: 10%;
-}
-
 .insta {
   display: grid;
   max-width: 1200px;
@@ -103,6 +98,11 @@ img {
     max-height: 300px;
     overflow: hidden;
   }
+
+  .billede_str {
+    width: 350px;
+    padding-bottom: 10%;
+  }
 }
 
 p {
@@ -142,6 +142,26 @@ h2 {
 .sociale_medier {
   width: 90px;
   height: 49px;
+}
+
+@media (max-width: 800px) {
+  .billede_str {
+    width: 100px;
+    padding-bottom: 10%;
+    gap: 5%;
+  }
+
+  .insta_tekst {
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 10%;
+  }
+
+  p {
+    padding-top: 0%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
 }
 
 /* fonts */
