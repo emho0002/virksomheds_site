@@ -289,3 +289,39 @@ button[type="submit"] {
   width: 100%;
   height: auto;
 }
+
+@media only screen and (max-width: 800px) {
+  .forsidevideo video {
+    width: 100%; /* Make the video fill the width of the container */
+    height: auto; /* Maintain the aspect ratio */
+  }
+
+  .kontakt_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    z-index: 100;
+    opacity: 1;
+
+    margin-left: 10%;
+  }
+
+  .kontakt_tekst {
+    grid-row: 1;
+
+    background-color: #fffcf2;
+    border: 1px solid #e7e9d9;
+    font-family: var(--primary-font);
+    padding: 6%;
+    width: 90%;
+    height: auto;
+  }
+
+  .kontakt_info {
+    grid-row: 2;
+    grid-column: 1;
+    width: 90%;
+    height: 65%;
+    border: 1px solid #cccebf;
+  }
+}
